@@ -1,0 +1,50 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: rgba(0, 32, 63, 0.7);
+  z-index: 1;
+}
+
+.hero .container {
+  z-index: 2;
+}
+
+.candidate-img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #f9c74f;
+  object-fit: cover;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  color: #f9c74f;
+}
+
+#vision {
+  background: linear-gradient(to bottom right, #004080, #001f3f);
+}
+
+.list-group-item {
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+footer {
+  font-size: 0.9rem;
+}
