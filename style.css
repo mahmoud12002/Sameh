@@ -47,4 +47,24 @@ body {
 
 footer {
   font-size: 0.9rem;
+}#contact {
+  background-color: #001f3f; /* خلفية غامقة */
+  color: #f9c74f; /* لون النص الأساسي */
 }
+
+#contact p, #contact h2 {
+  color: #f9c74f;
+}
+
+#contact a.btn {
+  color: #001f3f;
+  background-color: #f9c74f;
+  border: none;
+}
+
+#contact a.btn:hover {
+  background-color: #ffdd57;
+}
+
+
+
